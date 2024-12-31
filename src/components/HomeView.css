@@ -1,0 +1,420 @@
+.home {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Common Styles */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* New Arrival Section */
+.new-arrival {
+  margin-bottom: 60px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.product-card {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ff4444;
+}
+
+/* Special Edition Styles */
+.special-edition {
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bundle-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.bundle-grid.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.bundle-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bundle-image img {
+  width: 100%;
+  max-width: 756px;
+  height: 493px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bundle-info {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  direction: ltr;
+}
+
+.bundle-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.bundle-info p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.special-title {
+  color: #ff4444;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bundle-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bundle-price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ff4444;
+}
+
+.buy-now {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-now:hover {
+  background-color: #555;
+}
+
+/* Categories Section */
+.categories {
+  margin-bottom: 60px;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 330px;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  position: relative;
+  width: 330px;
+  height: 357px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Location Store Section */
+.location-store {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url('../assets/background-location.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  color: white;
+  padding: 60px 20px;
+  margin-top: 60px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.store-header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.store-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.store-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  filter: brightness(0) invert(1); /* Makes the logo white */
+}
+
+.store-logo img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.store-logo h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.store-title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.store-locations {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.location {
+  text-align: center;
+}
+
+.location h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.location p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color:#3d3d3d;
+  color: white;
+  padding: 60px 0;
+  width: 100%;
+  position: relative;
+}
+
+.store-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.email-signup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #333;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background: #cccccc;
+}
+
+.terms {
+  font-size: 0.9rem;
+  color: #999;
+  line-height: 1.4;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #cccccc;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  color: #999;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .category-grid,
+  .products-grid,
+  .store-locations {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .category-grid,
+  .products-grid,
+  .store-locations {
+    grid-template-columns: 1fr;
+  }
+
+  .category-card,
+  .image-container {
+    width: 100%;
+    max-width: 330px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .store-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .store-logo h1 {
+    font-size: 2.5rem;
+  }
+
+  .location h2 {
+    font-size: 1.8rem;
+  }
+}
