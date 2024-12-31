@@ -125,27 +125,27 @@ const HomeView = () => {
             <div className="footer-section">
               <h3>About Arshion</h3>
               <ul>
-                <li><a href="#">Information</a></li>
-                <li><a href="#">Store location</a></li>
-                <li><a href="#">Partnerships</a></li>
+                <li><a href="#home">Information</a></li>
+                <li><a href="#home">Store location</a></li>
+                <li><a href="#home">Partnerships</a></li>
               </ul>
             </div>
             <div className="footer-section">
               <h3>Support</h3>
               <ul>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Payment Method</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#home">FAQ</a></li>
+                <li><a href="#home">Payment Method</a></li>
+                <li><a href="#home">Privacy Policy</a></li>
+                <li><a href="#home">Contact Me</a></li>
               </ul>
             </div>
             <div className="footer-section">
               <h3>Follow me</h3>
               <div className="social-icons">
-                <a href="#"><i className="fab fa-instagram"></i></a>
-                <a href="#"><i className="fab fa-facebook"></i></a>
-                <a href="#"><i className="fab fa-twitter"></i></a>
-                <a href="#"><i className="fab fa-youtube"></i></a>
+                <a href="#home"><i className="fab fa-instagram"></i></a>
+                <a href="#home"><i className="fab fa-facebook"></i></a>
+                <a href="#home"><i className="fab fa-twitter"></i></a>
+                <a href="#home"><i className="fab fa-youtube"></i></a>
               </div>
             </div>
           </div>

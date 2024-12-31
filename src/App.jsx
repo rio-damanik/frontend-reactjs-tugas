@@ -8,13 +8,13 @@ const App = () => {
       <header className="header">
         <div className="top-bar">
           <div className="left">
-            <a href="#" className="download-app">
+            <a href="#home" className="download-app">
               <img src={require('./assets/Vectorfinal project FE Sisko.png')} alt="Mobile" />
               Download Arshion App
             </a>
           </div>
           <div className="right">
-            <a href="#" className="help">
+            <a href="#home" className="help">
               <img src={require('./assets/Helpfinal project FE Sisko.png')} alt="Help" />
               Help
             </a>
@@ -23,9 +23,9 @@ const App = () => {
               Language English
             </div>
             <div className="auth-links">
-              <a href="#" className="sign-in">Sign in</a>
+              <a href="#home" className="sign-in">Sign in</a>
               <span>|</span>
-              <a href="#" className="sign-up">Sign Up</a>
+              <a href="#home" className="sign-up">Sign Up</a>
             </div>
           </div>
         </div>
@@ -35,9 +35,9 @@ const App = () => {
             <img src={require('./assets/Logofinal project FE Sisko.png')} alt="ARSHION" />
           </div>
           <div className="nav-links">
-            <a href="#" className="nav-link">MEN</a>
-            <a href="#" className="nav-link">WOMEN</a>
-            <a href="#" className="nav-link">KIDS</a>
+            <a href="#home" className="nav-link">MEN</a>
+            <a href="#home" className="nav-link">WOMEN</a>
+            <a href="#home" className="nav-link">KIDS</a>
           </div>
           <div className="nav-icons">
             <img src={require('./assets/Searchfinal project FE Sisko.png')} alt="Search" />
